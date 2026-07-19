@@ -6,5 +6,5 @@ meta:
 
 run:
   scriptName: src/services/server.js
-  containerPort: 3000
+  containerPort: 3001
   persistenceMount: /data
