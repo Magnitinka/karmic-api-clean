@@ -6,3 +6,4 @@ meta:
 run:
   scriptName: src/services/server.js
   persistenceMount: /data
+  port: 3000
