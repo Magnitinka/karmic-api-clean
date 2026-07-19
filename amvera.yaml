@@ -3,7 +3,8 @@ meta:
   toolchain:
     name: npm
     version: 18
+
 run:
   scriptName: src/services/server.js
+  containerPort: 3000
   persistenceMount: /data
-  port: 3000
