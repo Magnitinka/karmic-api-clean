@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// 👇 ЭТОТ GET ОБРАБОТЧИК НУЖЕН ДЛЯ ПРОВЕРКИ В БРАУЗЕРЕ
+// GET – чтобы браузер не выдавал 404
 router.get('/', (req, res) => {
   res.json({ message: 'GET работает, роут жив' });
 });
@@ -12,8 +12,6 @@ router.post('/', (req, res) => {
   if (!name || !birthdate) {
     return res.status(400).json({ error: 'Имя и дата обязательны' });
   }
-
-  // Пока заглушка – потом заменим на реальную логику
   res.json({
     free: {
       lifePath: { number: 1, description: 'Лидер' },
