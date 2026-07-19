@@ -1,6 +1,9 @@
 meta:
   name: karmic-calculator
   version: "1.0.0"
+  toolchain:
+    name: nodejs
+    version: "20"
 
 web:
   commands:
