@@ -4,6 +4,8 @@ meta:
   toolchain:
     name: nodejs
     version: "20"
+  environment:
+    type: web
 
 web:
   commands:
