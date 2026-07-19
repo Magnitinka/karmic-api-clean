@@ -1,8 +1,6 @@
-meta:
-  environment: node
-  toolchain:
-    name: npm
-    version: 18
-run:
-  scriptName: src/services/server.js
-  persistenceMount: /data
+web:
+  commands:
+    - npm install
+  run: npm start
+  env:
+    PORT: 3000
