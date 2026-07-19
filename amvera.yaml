@@ -1,15 +1,8 @@
 meta:
-  name: karmic-calculator
-  version: "1.0.0"
+  environment: node
   toolchain:
-    name: nodejs
-    version: "20"
-  environment:
-    type: web
-
-web:
-  commands:
-    - npm install
-  run: npm start
-  env:
-    PORT: 3000
+    name: npm
+    version: 18
+run:
+  scriptName: src/services/server.js
+  persistenceMount: /data
