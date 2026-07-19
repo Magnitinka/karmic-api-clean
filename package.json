@@ -1,21 +1,12 @@
 {
   "name": "karmic-api",
   "version": "1.0.0",
-  "description": "Нумерологический калькулятор с платными отчётами",
-  "main": "src/services/server.js",
   "scripts": {
-    "start": "node src/services/server.js",
-    "dev": "nodemon src/services/server.js"
+    "start": "node src/services/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
