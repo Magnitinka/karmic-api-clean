@@ -1,5 +1,5 @@
 const app = require('./app');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 // Добавьте эту строку, чтобы увидеть реальный порт в логах
 console.log(`Порт из окружения: ${process.env.PORT}, финальный порт: ${PORT}`);
 
